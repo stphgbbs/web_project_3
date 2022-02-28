@@ -1,0 +1,16 @@
+.place__author-heading {
+  color: #aaaaaa;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 12%;
+  line-height: 15px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 495px) {
+  .place__author-heading {
+    padding: 0 16px 0 16px;
+  }
+}

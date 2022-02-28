@@ -1,0 +1,46 @@
+.cover {
+  background-image: url(../../images/__background.jpg);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  object-fit: cover;
+  z-index: 2;
+  max-width: 1184px;
+  min-height: 740px;
+  margin: 92px auto 0;
+}
+
+.cover::before {
+  content: "";
+  position: absolute;
+  background-color: #2a2c2f;
+  opacity: 0.3;
+  z-index: -1;
+  transition: 0.2s;
+  transition-timing-function: ease-out;
+  width: 100%;
+  height: 100%;
+}
+
+.cover:hover::before {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    margin: 88px auto 0;
+    max-width: 768px;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 495px) {
+  .cover {
+    margin: 64px auto 0;
+    min-height: 254px;
+    max-width: 100%;
+  }
+}
