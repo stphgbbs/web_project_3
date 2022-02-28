@@ -1,7 +1,7 @@
 Project 3: From Homeland to Homeland
 by Stephany Gibbs
 
-In this project I showcase hometowns from across the world, including my own hometown, Austin Tx. The project was created using the following techniques:
+In this project I showcase hometowns from across the world, including my own hometown, Austin Tx. The project was created using the following CSS techniques:
 
 -Flexbox
 -Responsive design
