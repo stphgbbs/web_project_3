@@ -1,0 +1,16 @@
+.place__paragraph {
+  grid-area: text;
+  grid-column: 2;
+  margin: 25px 0 0;
+  width: 100%;
+}
+
+.place__paragraph:first-of-type {
+  margin: 0;
+}
+
+@media screen and (max-width: 495px) {
+  .place__paragraph {
+    max-width: 100%;
+  }
+}

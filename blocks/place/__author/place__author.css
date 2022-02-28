@@ -1,0 +1,11 @@
+.place__author {
+  grid-area: author;
+  align-self: flex-end;
+}
+
+@media screen and (max-width: 495px) {
+  .place__author {
+    width: 288px;
+    max-width: 100%;
+  }
+}
