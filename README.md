@@ -9,4 +9,4 @@ In this project I showcase hometowns from across the world, including my own hom
 -Grid
 
 Link to Project
-Deployed on GitHub Pages https://github.com/stphgbbs/web_project_3
+Deployed on GitHub Pages https://stphgbbs.github.io/web_project_3/
