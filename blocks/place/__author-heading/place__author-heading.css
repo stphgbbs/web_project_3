@@ -11,6 +11,7 @@
 
 @media screen and (max-width: 495px) {
   .place__author-heading {
-    padding: 0 16px 0 16px;
+    margin: 0;
+    padding: 0;
   }
 }

@@ -12,19 +12,11 @@
   padding: 0;
 }
 
-.place:first-child {
-  margin: 92px 0 0 0;
-}
-
 @media screen and (max-width: 768px) {
   .place {
     gap: 48px 28px;
     padding: 0 24px 0;
-    margin: 72px 0 0 0;
-  }
-
-  .place:first-child {
-    margin: 92px 0 0 0;
+    margin: 72px 24px;
   }
 }
 
@@ -39,11 +31,7 @@
       "image"
       "paragraphs"
       "button";
-    margin: 48px 0 0 0;
+    margin: 48px 16px;
     padding: 0;
-  }
-
-  .place:first-child {
-    margin: 64px 0 0 0;
   }
 }
