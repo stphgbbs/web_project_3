@@ -1,5 +1,5 @@
 @import url(../vendor/normalize.css);
-@import url(../vendor/fonts/inter.css);
+@import url(../vendor/fonts/fonts.css);
 
 @import url(../blocks/buttons/button.css);
 
@@ -35,7 +35,7 @@
 @import url(../blocks/place/__title/place__title.css);
 
 @import url(../blocks/cover/cover.css);
-@import url(../blocks/cover/__button/.cover__button.css);
+@import url(../blocks/cover/__button/cover__button.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
 @import url(../blocks/cover/__title/cover__title.css);
 
