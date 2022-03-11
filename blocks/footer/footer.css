@@ -4,12 +4,12 @@
 
 @media screen and (max-width: 768px) {
   .footer {
-    margin: 88px 0 0 0;
+    margin: 88px auto 24px;
   }
 }
 
 @media screen and (max-width: 495px) {
   .footer {
-    margin: 64px 0 0 0;
+    margin: 64px auto 14px;
   }
 }

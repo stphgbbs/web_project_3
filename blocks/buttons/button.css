@@ -16,4 +16,6 @@
 
 .button:hover {
   background-color: #0063d2;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
 }
