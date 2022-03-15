@@ -16,6 +16,7 @@
   .place {
     gap: 48px 28px;
     margin: 72px 0 0 0;
+    padding: 0 0 0 24px;
   }
 }
 
@@ -31,5 +32,6 @@
       "paragraphs"
       "button";
     margin: 62px 0 0 0;
+    padding: 0px;
   }
 }
