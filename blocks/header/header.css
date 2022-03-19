@@ -1,6 +1,5 @@
 .header {
-  margin: 0;
-  padding: 34px 0 0 0;
+  margin-top: 34px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -8,6 +7,6 @@
 
 @media screen and (max-width: 495px) {
   .header {
-    padding: 20px 0 0 0;
+    margin-top: 20px;
   }
 }
