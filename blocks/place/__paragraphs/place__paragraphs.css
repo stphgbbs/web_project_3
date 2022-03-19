@@ -8,11 +8,13 @@
   .place__paragraphs {
     font-size: 16px;
     line-height: 26px;
+    padding-right: 24px;
   }
 }
 
 @media screen and (max-width: 495px) {
   .place__paragraphs {
-    margin: 0 0 0 16px;
+    margin: 0 16px 0 16px;
+    padding: 0;
   }
 }
